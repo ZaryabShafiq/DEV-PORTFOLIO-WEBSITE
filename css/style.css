@@ -1,0 +1,67 @@
+/* Add this at the top of your style.css file */
+:root {
+  /* Primary Colors */
+  --primary-blue: #2563eb;
+  --primary-dark: #1d4ed8;
+  --primary-light: #3b82f6;
+  
+  /* Secondary Colors */
+  --secondary-purple: #7c3aed;
+  --secondary-teal: #0d9488;
+  
+  /* Neutral Colors */
+  --gray-900: #111827;
+  --gray-800: #1f2937;
+  --gray-600: #4b5563;
+  --gray-400: #9ca3af;
+  --gray-200: #e5e7eb;
+  --gray-100: #f3f4f6;
+  --white: #ffffff;
+  
+  /* Accent Colors */
+  --accent-yellow: #fbbf24;
+  --accent-green: #10b981;
+  --accent-red: #ef4444;
+}
+
+/* Update existing styles to use CSS variables */
+.nav-logo h2 {
+    color: var(--primary-blue);
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.nav-link:hover {
+    color: var(--primary-blue);
+}
+
+.nav-link::after {
+    background: var(--primary-blue);
+}
+
+.hero {
+    background: linear-gradient(135deg, var(--primary-blue) 0%, var(--secondary-purple) 100%);
+}
+
+.btn-primary {
+    background: var(--accent-yellow);
+    color: var(--gray-900);
+    border-color: var(--accent-yellow);
+}
+
+.btn-primary:hover {
+    background: transparent;
+    color: var(--accent-yellow);
+    border-color: var(--accent-yellow);
+}
+
+.btn-secondary {
+    background: transparent;
+    color: var(--white);
+    border-color: var(--white);
+}
+
+.btn-secondary:hover {
+    background: var(--white);
+    color: var(--gray-900);
+}
