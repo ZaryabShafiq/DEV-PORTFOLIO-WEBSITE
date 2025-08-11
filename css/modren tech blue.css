@@ -1,0 +1,24 @@
+:root {
+  /* Primary Colors */
+  --primary-blue: #2563eb;      /* Main brand color */
+  --primary-dark: #1d4ed8;      /* Hover states */
+  --primary-light: #3b82f6;     /* Accents */
+  
+  /* Secondary Colors */
+  --secondary-purple: #7c3aed;  /* Call-to-action */
+  --secondary-teal: #0d9488;    /* Success states */
+  
+  /* Neutral Colors */
+  --gray-900: #111827;          /* Dark text */
+  --gray-800: #1f2937;          /* Headers */
+  --gray-600: #4b5563;          /* Body text */
+  --gray-400: #9ca3af;          /* Muted text */
+  --gray-200: #e5e7eb;          /* Borders */
+  --gray-100: #f3f4f6;          /* Light backgrounds */
+  --white: #ffffff;             /* Pure white */
+  
+  /* Accent Colors */
+  --accent-yellow: #fbbf24;     /* Highlights */
+  --accent-green: #10b981;      /* Success */
+  --accent-red: #ef4444;        /* Errors */
+}
