@@ -1,0 +1,17 @@
+:root {
+  /* Primary Colors */
+  --bg-primary: #0f172a;        /* Main background */
+  --bg-secondary: #1e293b;      /* Card backgrounds */
+  --bg-tertiary: #334155;       /* Elevated surfaces */
+  
+  /* Text Colors */
+  --text-primary: #f8fafc;      /* Main text */
+  --text-secondary: #cbd5e1;    /* Secondary text */
+  --text-muted: #64748b;        /* Muted text */
+  
+  /* Accent Colors */
+  --accent-blue: #38bdf8;       /* Links and CTAs */
+  --accent-purple: #a855f7;     /* Special highlights */
+  --accent-emerald: #34d399;    /* Success states */
+  --accent-orange: #fb923c;     /* Warnings */
+}
