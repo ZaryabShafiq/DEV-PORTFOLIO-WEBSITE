@@ -7,8 +7,7 @@ Welcome to the **Trae AI Dev Portfolio** repository! This project showcases how 
 ## About This Project
 
 This repository serves as a teaching tool and example for developers to understand how Trae AI can be used to:
-
-- Generate backend API logic  
+  
 - Build frontend components  
 - Automate coding workflows with AI-powered prompt engineering  
 - Seamlessly integrate AI-generated code into a functional project  
